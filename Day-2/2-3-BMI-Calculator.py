@@ -7,13 +7,4 @@ weight = input("enter your weight in kg: ")
 
 bmi = int(weight) / float(height) ** 2
 bmi_as_int = round(bmi)
-if bmi_as_int < 18.5:
-    print(f"Your BMI is {bmi_as_int}kg/m², you are underweight.")
-elif bmi_as_int < 25:
-    print(f"Your BMI is {bmi_as_int}kg/m², you have normal weight.")
-elif bmi_as_int < 30:
-    print(f"Your BMI is {bmi_as_int}kg/m², you are slightly overweight.")
-elif bmi_as_int < 35:
-    print(f"Your BMI is {bmi_as_int}kg/m², you are obese.")
-else:
-    print(f"Your BMI is {bmi_as_int}kg/m², you are clinically obese.")
+print(bmi_as_int)
