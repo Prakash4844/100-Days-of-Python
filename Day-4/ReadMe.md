@@ -6,7 +6,7 @@
         - Python Lists
 
 ### What will be Make Today?
-    - Treasure Island Game.
+    - Rock Paper Scissors Game.
 
 ----------------------------------------------------------------------------------------
 - [Angela's version](https://replit.com/@appbrewery/rock-paper-scissors-end)
