@@ -30,3 +30,11 @@
 ![Final_Project](Final_Reeborg.gif)
 
 ----------------------------------------------------------------------------------------
+
+### Test Cases - 1
+![Problem_world_1](Reeborg%20World%20Tests/Problem_world_1.png)
+### Test Cases - 2
+![Problem_world_2](Reeborg%20World%20Tests/Problem_world_2.png)
+### Test Cases - 3
+![Problem_world_3](Reeborg%20World%20Tests/Problem_world_3.png)
+
