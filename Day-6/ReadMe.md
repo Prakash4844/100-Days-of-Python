@@ -10,7 +10,6 @@
     - Karel The Robot.
 
 ----------------------------------------------------------------------------------------
-- [Angela's version](https://repl.it/@appbrewery/password-generator-end?embed=1&output=1)
 - [Built-in Functions in Python](https://docs.python.org/3/library/functions.html)
 - [PEP 8 - Python Styling](https://peps.python.org/pep-0008/)
 - [Reeborg's World](https://reeborg.ca/reeborg.html)
