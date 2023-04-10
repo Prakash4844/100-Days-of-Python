@@ -20,7 +20,7 @@
 - [import module docs](https://www.askpython.com/python/python-import-statement)
 
 ### Final
-![Final_Project](Final_Reeborg.gif)
+![Final_Project](Hard_Hangman.py)
 
 ----------------------------------------------------------------------------------------
 
