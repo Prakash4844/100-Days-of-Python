@@ -12,7 +12,7 @@
 
 ### My Files
 - [Art](Art.py)
-- [9-1-Dictionary.py](9-1-Dictionary.py)
+- [9-1-Dictionary](9-1-Dictionary.py)
 - [9-1-Grade-Hogwarts-Exercise](9-1-Grade-Hogwarts-Exercise.py)
 - [9-2-Nested_Dictionaries_and_list](9-2-Nested_Dictionaries_and_list.py)
 - [9-2-Travel-log-Exercise](9-2-Travel-log-Exercise.py)
