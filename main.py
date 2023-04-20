@@ -1,5 +1,15 @@
-print("""100 Days of Python 
+infor = """
+                                                                                                       
+.o .oPYo. .oPYo.   ooo.                                  d'b    .oPYo.          o  8                   
+ 8 8  .o8 8  .o8   8  `8.                                8      8    8          8  8                   
+ 8 8 .P'8 8 .P'8   8   `8 .oPYo. o    o .oPYo.   .oPYo. o8P    o8YooP' o    o  o8P 8oPYo. .oPYo. odYo. 
+ 8 8.d' 8 8.d' 8   8    8 .oooo8 8    8 Yb..     8    8  8      8      8    8   8  8    8 8    8 8' `8 
+ 8 8o'  8 8o'  8   8   .P 8    8 8    8   'Yb.   8    8  8      8      8    8   8  8    8 8    8 8   8 
+ 8 `YooP' `YooP'   8ooo'  `YooP8 `YooP8 `YooP'   `YooP'  8      8      `YooP8   8  8    8 `YooP' 8   8 
+:..:.....::.....:::.....:::.....::....8 :.....::::.....::..:::::..::::::....8 ::..:..:::..:.....:..::..
+:::::::::::::::::::::::::::::::::::ooP'.:::::::::::::::::::::::::::::::::ooP'.:::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::...:::::::::::::::::::::::::::::::::::...:::::::::::::::::::::::::::
 
-        This repo contain my attempt on 100days of python by Dr. Angela Yu Course. Note i most 
-        likely won't be doing the course completely. As i just want to learn enough Python, 
-        that i would need in DevOps and not actually aiming to be a Python Developer.""")
+"""
+
+print(infor)
