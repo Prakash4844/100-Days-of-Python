@@ -4,7 +4,6 @@
         - Debugging
 
 ### What will be Make Today?
-    - Number Guessing Game.
 
 ----------------------------------------------------------------------------------------
 - [Debug Exercises](https://repl.it/@appbrewery/day-13-start)
