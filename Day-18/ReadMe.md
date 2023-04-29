@@ -9,7 +9,6 @@
     - Dotted Odd Art.
 
 ----------------------------------------------------------------------------------------
-- [Angela's version](https://replit.com/@appbrewery/quiz-game-final?embed=1)
 - [Trinklet Turtle Color](https://trinket.io/docs/colors)
 - [Turtle Colors](https://cs111.wellesley.edu/reference/colors)
 - [Turtle Graphics](https://docs.python.org/3/library/turtle.html)
