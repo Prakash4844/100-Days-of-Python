@@ -13,6 +13,7 @@
 - [Turtle Module](https://docs.python.org/3.3/library/turtle.html?highlight=turtle#module-turtle)
 - [shape method](https://docs.python.org/3.3/library/turtle.html?highlight=turtle#turtle.shape)
 - [Shapesize method](https://docs.python.org/3.3/library/turtle.html?highlight=turtle#turtle.shapesize)
+- [Turtle Write method](https://docs.python.org/3/library/turtle.html#turtle.write)
 
 ### My Files
 
