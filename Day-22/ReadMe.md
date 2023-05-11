@@ -17,9 +17,9 @@
 
 ### My Files
 
-- [Inheritance](Inheritance.py)
-- [Snake_class](snake.py)
-- [Food Class](food.py)
+- [Scoreboard](scoreboard.py)
+- [ball_class](ball.py)
+- [paddle Class](paddle.py)
 - [Pong Game](main.py)
 
 ----------------------------------------------------------------------------------------
