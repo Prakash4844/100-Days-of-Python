@@ -1,10 +1,10 @@
-## Day 22
+## Day 23
 
     Goal: Things we will learn in Python.
         - More Turtle Graphics
 
 ### What will be Make Today?
-    - Pong Game
+    - Turtle crossing Game
 
 ----------------------------------------------------------------------------------------
 - [Tracer method](https://docs.python.org/3.3/library/turtle.html?highlight=turtle#turtle.tracer)
