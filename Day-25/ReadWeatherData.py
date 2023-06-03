@@ -23,7 +23,7 @@ data = pandas.read_csv("weather-data.csv")
 
 # temp_list = data["temp"].to_list()
 # print(temp_list)
-#
+
 # print(round(data["temp"].mean(), 2))
 # print(data["temp"].max())
 
@@ -33,6 +33,9 @@ data = pandas.read_csv("weather-data.csv")
 
 # Get data in rows
 # print(data[data.day == "Monday"])
+# print(data[data.temp == 12])
+# print(data[data.condition == "Cloudy"])
+
 # print(data[data.temp == data.temp.max()])
 
 # def cal_to_Fahr(temp_cal):
@@ -56,4 +59,4 @@ stu_data = {
 student_dataframe = pandas.DataFrame(stu_data)
 print(student_dataframe)
 
-student_dataframe.to_csv("Gang.csv")
+student_dataframe.to_csv("Gang.csv", index=False) # Index=False is used to drop the index column

@@ -17,11 +17,11 @@ guessed_state = []
 
 def exit_game():
     Remaining_State = {
-        "states": []
+        "States": []
     }
     for state in states:
         if state not in guessed_state:
-            Remaining_State["states"].append(state)
+            Remaining_State["States"].append(state)
     rdf = pandas.DataFrame(Remaining_State)
     rdf.to_csv("Remaining States.csv", index=False)
     exit()
