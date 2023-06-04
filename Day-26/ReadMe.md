@@ -13,14 +13,23 @@
 - [Pandas API Reference](https://pandas.pydata.org/docs/reference/index.html)
 - [Pandas Documentation](https://pandas.pydata.org/docs/)
 - [Pandas Documentation - Read CSV](https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html)
-- [Squirrel data](https://data.cityofnewyork.us/Environment/2018-Central-Park-Squirrel-Census-Squirrel-Data/vfnx-vebw)
 - [State Game](https://www.sporcle.com/games/g/states)
 
 ### My Files
-
-- [List Comprehension](List_Comprihension.py)
+#### List Comprehension
+- [List Comprehension](List_Comprehension.py)
 - [List_Comprehension(LC)_Ex1](List_Comprehension(LC)_Ex1.py)
 - [LC_Ex2](LC_Ex2.py)
 - [LC_Ex3](LC_Ex3/LC_Ex3.py)
+
+#### State game improvement
 - [State Game](State_Game/StateGame.py)
+
+#### Dictionary Comprehension
+- [Dictionary Comprehension](Dict_Comprehension.py)
+- [Dict_Comprehension(DC)_Ex1](Dict_Comprehension(DC)_Ex1.py)
+- [DC_Ex2](DC_Ex2.py)
+
+#### Pandas Library
+- [Iterate over pandas dataframe](Iterate_Over_Pandas_Data_Frame.py)
 ----------------------------------------------------------------------------------------
