@@ -23,7 +23,12 @@ def start_timer():
 
 def count_down(count):
     start_button.config(state="disabled")
-    canvas.itemconfig(timer_text, text=f"{math.floor(count/60)}:{round(count%60, 2)}")
+    if math.floor(count % 60) < 10:
+        count_sec = f"0{math.floor(count % 60)}"
+    else:
+        count_sec = (count % 60)
+
+    canvas.itemconfig(timer_text, text=f"{math.floor(count/60)}:{count_sec}")
     if count > 0:
         app.after(1000, count_down, count - 1)
     else:
