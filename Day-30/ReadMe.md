@@ -23,3 +23,5 @@
 ### My Files
 
 - [Errors](errors.py)
+- [Exceptions handling Ex.1](Exception_Handling_Ex1.py)
+- [Exceptions handling Ex.2](Exception_Handling_Ex2.py)
