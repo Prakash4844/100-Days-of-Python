@@ -1,22 +1,24 @@
 ## Day 29
-
     Goal: Things we will learn in Python.
         - GUI with Tkinter
 
 ### What will be Make Today?
     - Password Manager
 
+### Resources
 ---
 - [Tkinter Docs](https://docs.python.org/3/library/tkinter.html)
 - [Canvas tkDocs](https://tkdocs.com/tutorial/canvas.html)
 - [Column Span playground](https://repl.it/@appbrewery/grid-columnspan-demo#main.py)
 - [Color-hunt](https://colorhunt.co/)
 - [Entry Widget docs](https://tkdocs.com/tutorial/widgets.html#entry)
-- [Write to file](https://www.w3schools.com/python/python_file_write.asp)
+- [Write to file](https://www.w3schools.com/python/python_file_write.asp)  
 - [TCL tk Docs](http://tcl.tk/man/tcl8.6/TclCmd/after.htm)
 - [Dynamic typing stackoverflow](https://stackoverflow.com/questions/11328920/is-python-strongly-typed)
+- [string join method](https://www.w3schools.com/python/ref_string_join.asp)
+- [Pyperclip](https://pypi.org/project/pyperclip/)
 
 ---
 ### My Files
 
-- [Password manager](main.py)
+- [MyPass Password manager](main.py)
