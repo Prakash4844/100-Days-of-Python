@@ -22,4 +22,4 @@
 ---
 ### My Files
 
-- [MyPass Password manager](main.py)
+- [Errors](errors.py)

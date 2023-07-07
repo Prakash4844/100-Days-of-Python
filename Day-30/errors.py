@@ -32,5 +32,26 @@ else:   # if no error occurs
     content = file.read()
     print(content)
 finally:    # always do this
+    # raise TypeError("This is an error that I made up.")
     file.close()
     print("File was closed.")
+
+# Raising errors
+# raise TypeError("This is an error that I made up.")
+# raise IndexError("This is an error that I made up.")
+# raise KeyError("This is an error that I made up.")
+
+# Create your own exception
+
+try:
+    height = float(input("Height: "))
+    weight = int(input("Weight: "))
+    if height > 3:
+        raise ValueError("Human height should not be over 3 meters.")
+    bmi = weight / height ** 2
+except ValueError as error:
+    print("Please enter a valid height.")
+except ZeroDivisionError as error:
+    print("Please enter a valid height and weight.")
+else:
+    print(bmi)
