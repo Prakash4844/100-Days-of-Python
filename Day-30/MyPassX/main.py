@@ -44,7 +44,7 @@ def save_entry():
     Saves the entry to a file
     :return: none
     """
-    website = website_entry.get()
+    website = website_entry.get().title()
     email = email_entry.get()
     password_text = password_entry.get()
     new_data = {
@@ -85,6 +85,29 @@ def save_entry():
         password_entry.delete(0, END)
 
 
+# ---------------------------- SEARCH PASSWORD ------------------------------- #
+
+def search_password():
+    """
+    Searches for the password
+    :return: none
+    """
+    website = website_entry.get().title()
+    try:
+        with open("password.json", "r") as data:
+            # Reading old data
+            json_data = json.load(data)
+    except FileNotFoundError:
+        tkmessagebox.showwarning(title="MyPass", message="No Data File Found!")
+    else:
+        if website in json_data:
+            email = json_data[website]["email"]
+            password = json_data[website]["password"]
+            tkmessagebox.showinfo(title=f"{website}", message=f"Email: {email}\nPassword: {password}")
+        else:
+            tkmessagebox.showwarning(title="MyPass", message=f"No details for {website} exists.")
+
+
 # ---------------------------- UI SETUP ------------------------------- #
 
 app = Tk()
@@ -106,8 +129,8 @@ password_label = Label(text="Password:")
 password_label.grid(column=0, row=3)
 
 # entries
-website_entry = Entry(width=40)
-website_entry.grid(column=1, row=1, columnspan=2)
+website_entry = Entry(width=28)
+website_entry.grid(column=1, row=1)
 website_entry.focus()
 email_entry = Entry(width=40)
 email_entry.grid(column=1, row=2, columnspan=2)
@@ -116,6 +139,8 @@ password_entry = Entry(width=28)
 password_entry.grid(column=1, row=3)
 
 # buttons
+search_button = Button(text="Search", width=8, command=search_password)
+search_button.grid(column=2, row=1)
 generate_password_button = Button(text="Generate", command=generate_password)
 generate_password_button.grid(column=2, row=3)
 add_button = Button(text="Add", width=37, command=save_entry)
