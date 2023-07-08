@@ -8,16 +8,11 @@
 
 ### Resources
 ---
-- [Tkinter Docs](https://docs.python.org/3/library/tkinter.html)
-- [Canvas tkDocs](https://tkdocs.com/tutorial/canvas.html)
-- [Column Span playground](https://repl.it/@appbrewery/grid-columnspan-demo#main.py)
-- [Color-hunt](https://colorhunt.co/)
-- [Entry Widget docs](https://tkdocs.com/tutorial/widgets.html#entry)
-- [Write to file](https://www.w3schools.com/python/python_file_write.asp)  
-- [TCL tk Docs](http://tcl.tk/man/tcl8.6/TclCmd/after.htm)
-- [Dynamic typing stackoverflow](https://stackoverflow.com/questions/11328920/is-python-strongly-typed)
-- [string join method](https://www.w3schools.com/python/ref_string_join.asp)
-- [Pyperclip](https://pypi.org/project/pyperclip/)
+- [Python Errors](https://docs.python.org/3/tutorial/errors.html)
+- [Python Exceptions](https://docs.python.org/3/tutorial/errors.html)
+- [JSON PYTHON](https://docs.python.org/3/library/json.html)
+- [JSON](https://www.w3schools.com/python/python_json.asp)
+- [Write to file](https://www.w3schools.com/python/python_file_write.asp)
 
 ---
 ### My Files
@@ -25,3 +20,4 @@
 - [Errors](errors.py)
 - [Exceptions handling Ex.1](Exception_Handling_Ex1.py)
 - [Exceptions handling Ex.2](Exception_Handling_Ex2.py)
+- [Nato Alphabet](NATO_Alphabet_Improved/main.py)
