@@ -1,10 +1,10 @@
 ## Day 11
 
     Goal: Things we will learn in Python.
-        - Review so far
+        - Capstone Project
 
 ### What will be Make Today?
-    - BlackJack Capstone Project.
+    - BlackJack Project.
 
 ----------------------------------------------------------------------------------------
 - [Angela's version](https://replit.com/@appbrewery/blackjack-final)

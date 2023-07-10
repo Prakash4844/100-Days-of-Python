@@ -1,7 +1,7 @@
 ## Day 23
 
     Goal: Things we will learn in Python.
-        - More Turtle Graphics
+        - Capstone Project
 
 ### What will be Make Today?
     - Turtle crossing Game

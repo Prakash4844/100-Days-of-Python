@@ -32,6 +32,7 @@
       <excludeFolder url="file://$MODULE_DIR$/Day-8" />
       <excludeFolder url="file://$MODULE_DIR$/Day-9" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Day-30" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.11 (100-Days-of-Python)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
