@@ -5,7 +5,7 @@ import os
 subject = "Testing smtplib module in python"
 body = "This is some random Email body text. send by Prakash using Python smtplib module"
 sender = "prakashsahu0518@gmail.com"
-recipients = ["lomipo4149@niback.com", "mipsigitri@gufum.com"]
+recipients = ["lomipo4149@niback.com", "mipsigitri@gufum.com", "johnathanjoestar@myyahoo.com"]
 password = os.environ.get("SMTP_APP_PASSWORD")
 msg = MIMEText(body)
 msg['Subject'] = subject
