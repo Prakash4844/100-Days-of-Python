@@ -13,13 +13,12 @@
 - [Gmail App password](https://support.google.com/accounts/answer/185833?hl=en)
 - [Motivational Quotes](https://www.positivityblog.com/monday-motivation-quotes/)
 
-
-
 ---
+
 ### My Files
 
 - [Localhost SMTP Server](send_to_local_host.py)
 - [Gmail SMTP Server](SMTP_Gmail.py)
 - [date_time](date_time.py)
 - [Send_Thursday_motivation](Send_Thursday_motivation.py)
-- [Birthday Wisher](main.py)
+- [Birthday Wisher](Auto_birthday_wisher/main.py)

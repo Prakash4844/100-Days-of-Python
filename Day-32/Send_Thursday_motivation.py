@@ -11,7 +11,7 @@ password = os.environ.get("SMTP_APP_PASSWORD")
 
 
 def send_email(email, recipient_emails, app_password):
-    with SMTP('smtp.gmail.com') as smtp_server:
+    with SMTP('smtp.gmail.com', 587) as smtp_server:
         smtp_server.starttls()
         smtp_server.login(email, app_password)
         msg['To'] = ', '.join(recipient_emails)
@@ -23,7 +23,7 @@ def send_email(email, recipient_emails, app_password):
 now = dt.datetime.now()
 weekday = now.weekday()
 
-if weekday == 3:
+if weekday == 4:
     try:
         with open("quotes.txt") as file:
             quotes = file.readlines()
