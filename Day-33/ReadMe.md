@@ -18,14 +18,19 @@
 - [HTTP Status Codes Mozilla Docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 - [HTTP Status Codes](https://httpstatuses.com/)
 - [Latitude and Longitude tool](https://www.latlong.net/Show-Latitude-Longitude.html)
-- [Latitude and Longitude to address](https://www.latlong.net/convert-address-to-lat-long.html)
+- [Latitude and Longitude to address](https://www.latlong.net/Show-Latitude-Longitude.html)
+- [Address to Latitude and Longitude](https://www.latlong.net/convert-address-to-lat-long.html)
 - [Python Requests Module](https://docs.python-requests.org/en/latest/)
+- [Sunrise and sunset API](https://sunrise-sunset.org/api)
+- [Python Split()](https://www.w3schools.com/python/ref_string_split.asp)
 
 ---
 
 ### My Files
 
-- [
+- [Kanye Quote](Kanye_quote/main.py)
+- [API Request](main.py)
+- 
 
 
 
