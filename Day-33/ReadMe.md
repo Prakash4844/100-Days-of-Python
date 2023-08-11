@@ -30,7 +30,6 @@
 
 - [Kanye Quote](Kanye_quote/main.py)
 - [API Request](main.py)
-- 
 
 
 
