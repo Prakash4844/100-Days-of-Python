@@ -16,7 +16,7 @@ with open('.env') as f:
 
 
 # replace the "demo" apikey below with your own key from https://www.alphavantage.co/support/#api-key
-url = f'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol={STOCK}&&interval=5min&apikey={STOCK_PRICE_API_KEY}'
+url = f'https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol={STOCK}&&interval=5min&apikey={STOCK_PRICE_API_KEY}'
 r = requests.get(url)
 data = r.json()
 
